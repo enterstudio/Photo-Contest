@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.9'
+gem 'rails', '3.0.14'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -12,7 +12,7 @@ gem "devise"
 gem "rmagick"
 gem "carrierwave"
 #gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
-gem 'kaminari'
+gem 'kaminari', '>= 0.12.4'
 gem 'make_voteable'
 gem 'sixarm_ruby_email_address_validation'
 gem 'koala'
