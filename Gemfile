@@ -17,7 +17,7 @@ gem 'make_voteable'
 gem 'sixarm_ruby_email_address_validation'
 gem 'koala'
 gem 'newrelic_rpm'
-gem 'fog'
+gem 'fog', '>= 1.5.0'
 gem 'aasm'
 gem 'whenever', :require => false
 # Use unicorn as the web server
