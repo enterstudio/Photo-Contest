@@ -15,9 +15,9 @@ gem "carrierwave"
 gem 'kaminari'
 gem 'make_voteable'
 gem 'sixarm_ruby_email_address_validation'
-gem 'koala'
+gem 'koala', '>= 1.1.0'
 gem 'newrelic_rpm'
-gem 'fog'
+gem 'fog', '>= 0.9.0'
 gem 'aasm'
 gem 'whenever', :require => false
 # Use unicorn as the web server
@@ -41,6 +41,6 @@ gem 'whenever', :require => false
 # and rake tasks are available in development mode:
  group :development, :test do
    gem 'thin'
-   gem 'mailcatcher'
+   gem 'mailcatcher', '>= 0.2.4'
    #gem 'webrat'
  end
