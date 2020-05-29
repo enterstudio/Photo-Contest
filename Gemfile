@@ -12,7 +12,7 @@ gem "devise"
 gem "rmagick"
 gem "carrierwave"
 #gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
-gem 'kaminari'
+gem 'kaminari', '>= 1.2.1'
 gem 'make_voteable'
 gem 'sixarm_ruby_email_address_validation'
 gem 'koala'
