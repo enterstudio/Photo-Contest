@@ -1,18 +1,18 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.9'
+gem 'rails', '5.0.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'mysql2', '< 0.3'
-gem 'jquery-rails', '>= 1.0.3'
-gem "oa-oauth", :require => "omniauth/oauth"
-gem "devise"
+gem 'jquery-rails', '>= 4.4.0'
+gem "oa-oauth", ">= 0.3.0", :require => "omniauth/oauth"
+gem "devise", ">= 1.4.2"
 gem "rmagick"
 gem "carrierwave"
 #gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
-gem 'kaminari'
+gem 'kaminari', '>= 0.12.4'
 gem 'make_voteable'
 gem 'sixarm_ruby_email_address_validation'
 gem 'koala'
@@ -40,7 +40,7 @@ gem 'whenever', :require => false
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
  group :development, :test do
-   gem 'thin'
-   gem 'mailcatcher'
+   gem 'thin', '>= 1.2.11'
+   gem 'mailcatcher', '>= 0.2.4'
    #gem 'webrat'
  end
