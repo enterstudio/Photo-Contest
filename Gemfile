@@ -10,7 +10,7 @@ gem 'jquery-rails', '>= 1.0.3'
 gem "oa-oauth", :require => "omniauth/oauth"
 gem "devise"
 gem "rmagick"
-gem "carrierwave"
+gem "carrierwave", ">= 1.3.2"
 #gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
 gem 'kaminari'
 gem 'make_voteable'
