@@ -1,13 +1,13 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.9'
+gem 'rails', '5.0.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'mysql2', '< 0.3'
-gem 'jquery-rails', '>= 1.0.3'
-gem "oa-oauth", :require => "omniauth/oauth"
+gem 'jquery-rails', '>= 4.0.1'
+gem "oa-oauth", ">= 0.3.0", :require => "omniauth/oauth"
 gem "devise"
 gem "rmagick"
 gem "carrierwave"
