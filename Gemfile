@@ -1,19 +1,19 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.9'
+gem 'rails', '6.1.7.1'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'mysql2', '< 0.3'
-gem 'jquery-rails', '>= 1.0.3'
+gem 'jquery-rails', '>= 4.0.1'
 gem "oa-oauth", :require => "omniauth/oauth"
 gem "devise"
 gem "rmagick"
-gem "carrierwave"
+gem "carrierwave", ">= 0.6.0"
 #gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
 gem 'kaminari'
-gem 'make_voteable'
+gem 'make_voteable', '>= 0.1.1'
 gem 'sixarm_ruby_email_address_validation'
 gem 'koala'
 gem 'newrelic_rpm'
