@@ -1,23 +1,23 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.9'
+gem 'rails', '6.1.7.3'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql2', '< 0.3'
-gem 'jquery-rails', '>= 1.0.3'
-gem "oa-oauth", :require => "omniauth/oauth"
-gem "devise"
+gem 'mysql2', '>= 0.2.12', '< 0.3'
+gem 'jquery-rails', '>= 4.4.0'
+gem "oa-oauth", ">= 0.3.0", :require => "omniauth/oauth"
+gem "devise", ">= 4.7.1"
 gem "rmagick"
-gem "carrierwave"
+gem "carrierwave", ">= 1.3.2"
 #gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
-gem 'kaminari'
-gem 'make_voteable'
+gem 'kaminari', '>= 1.2.1'
+gem 'make_voteable', '>= 0.1.1'
 gem 'sixarm_ruby_email_address_validation'
-gem 'koala'
-gem 'newrelic_rpm'
-gem 'fog'
+gem 'koala', '>= 1.1.0'
+gem 'newrelic_rpm', '>= 3.5.3.25'
+gem 'fog', '>= 1.5.0'
 gem 'aasm'
 gem 'whenever', :require => false
 # Use unicorn as the web server
