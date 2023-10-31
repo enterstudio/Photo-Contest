@@ -9,7 +9,7 @@ gem 'mysql2', '< 0.3'
 gem 'jquery-rails', '>= 1.0.3'
 gem "oa-oauth", :require => "omniauth/oauth"
 gem "devise"
-gem "rmagick"
+gem "rmagick", ">= 5.3.0"
 gem "carrierwave"
 #gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
 gem 'kaminari'
