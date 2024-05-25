@@ -41,6 +41,6 @@ gem 'whenever', :require => false
 # and rake tasks are available in development mode:
  group :development, :test do
    gem 'thin'
-   gem 'mailcatcher'
+   gem 'mailcatcher', '>= 0.10.0'
    #gem 'webrat'
  end
